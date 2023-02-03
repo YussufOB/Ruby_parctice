@@ -1,6 +1,6 @@
 puts "here you go"
 BEGIN {
-  puts "something working underground"
+  puts "something working underground now.."
 }
 END {
   puts "Ending.."
