@@ -29,3 +29,16 @@ decoded_sentence2 = decode_sentence(morse_sentence2)
 
 puts "\"#{decoded_sentence1}\"" #=> "A BOX FULL OF RUBIES"
 puts "\"#{decoded_sentence2}\"" #=> "MY NAME"
+
+module Cream
+  def cream?
+    true
+  end
+end
+
+class Cookies
+  include Cream
+end
+
+cookie = Cookies.new
+p cookie.cream?
